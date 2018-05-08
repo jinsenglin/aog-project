@@ -159,4 +159,4 @@ app.intent('tell_cat_fact', (conv) => {
 });
 
 // The entry point to handle a http request
-exports.factsAboutGoogle = functions.https.onRequest(app);
+exports.cclin = functions.https.onRequest(app);
